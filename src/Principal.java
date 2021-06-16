@@ -3,6 +3,7 @@ package src;
 import src.Ejercicio1.*;
 import src.Ejercicio2.*;
 import src.Ejercicio3.*;
+import src.Ejercicio4.*;
 
 public class Principal {
 
@@ -27,5 +28,9 @@ public class Principal {
 		Circulo c = new Circulo(3);
 		System.out.println(c.calcularArea());
 		System.out.println(c.calcularPerimetro());
+
+		Rectangulo d = new Rectangulo(5,6);
+		System.out.println(d.calcularArea());
+		System.out.println(d.calcularPerimetro());
 	}
 }
