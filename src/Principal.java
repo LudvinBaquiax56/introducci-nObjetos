@@ -2,6 +2,7 @@ package src;
 
 import src.Ejercicio1.*;
 import src.Ejercicio2.*;
+import src.Ejercicio3.*;
 
 public class Principal {
 
@@ -21,5 +22,10 @@ public class Principal {
 		Cuadrado b = new Cuadrado(3);
 		System.out.println(b.calcularArea());
 		System.out.println(b.calcularPerimetro());
+
+
+		Circulo c = new Circulo(3);
+		System.out.println(c.calcularArea());
+		System.out.println(c.calcularPerimetro());
 	}
 }
