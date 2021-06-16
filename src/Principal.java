@@ -4,6 +4,7 @@ import src.Ejercicio1.*;
 import src.Ejercicio2.*;
 import src.Ejercicio3.*;
 import src.Ejercicio4.*;
+import src.Ejercicio5.*;
 
 public class Principal {
 
@@ -32,5 +33,12 @@ public class Principal {
 		Rectangulo d = new Rectangulo(5,6);
 		System.out.println(d.calcularArea());
 		System.out.println(d.calcularPerimetro());
+
+		Libro libro = new Libro("La divina comedia","Mexican", "Dante", 2007);
+		libro.mostrarDatos2();
+		libro.prestamo();
+		libro.mostrarDatos2();
+		libro.devolucion();
+		libro.mostrarDatos2();
 	}
 }
