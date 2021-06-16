@@ -1,6 +1,7 @@
 package src;
 
 import src.Ejercicio1.*;
+import src.Ejercicio2.*;
 
 public class Principal {
 
@@ -16,5 +17,9 @@ public class Principal {
 		System.out.println(a.getContador());
 		a.disminuirContador();
 		System.out.println(a.getContador());
+
+		Cuadrado b = new Cuadrado(3);
+		System.out.println(b.calcularArea());
+		System.out.println(b.calcularPerimetro());
 	}
 }
