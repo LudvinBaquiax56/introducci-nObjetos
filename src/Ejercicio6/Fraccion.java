@@ -31,6 +31,22 @@ public class Fraccion {
 		this.numerador1 = numerador1;
 	}
 
+	public int getDenominador1(){
+		return denominador1;
+	}
+
+	public void setDenominador1(int denominador1){
+		this.denominador1 = denominador1;
+	}
+
+	public int getDenominador2(){
+		return denominador2;
+	}
+
+	public void setDenominador2(int denominador2){
+		this.denominador2 = denominador2;
+	}
+
 	public void suma(){
 		int nResultado;
 		int dResultado;
